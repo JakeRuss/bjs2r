@@ -1,9 +1,9 @@
-Package: bjstor
+Package: bjs2r
 Title: Import Bureau of Justice data sets to R
 Version: 0.0.0.9000
 Date: 2015-03-08
 Author@R: person("Jacob W.", "Russ ", "jake.w.russ@gmail.com", role = c("aut", "cre"))
 Description: Import Bureau of Justice data sets to R via BJS APIs.  
 License: MIT + file LICENSE
-URL: https://github.com/jakeruss/bjstor
-BugReports: https://github.com/jakeruss/bjstor/issues
+URL: https://github.com/jakeruss/bjs2r
+BugReports: https://github.com/jakeruss/bjs2r/issues
