@@ -30,6 +30,19 @@
   }
 }
 
+
+#' Download National Crime Victimization Survey (NCVS) data from the Bureau 
+#' of Justice Statistics' API.
+#' 
+#' @param survey survey type; accepts "personal" or "household"
+#' @param year survey year in YYYY format
+#' @param pop logical; TRUE indicates population data, FALSE indicates counts
+#' @param filename name of the downloaded file
+#' @param path directory to store downloaded file
+#' @param format file format type; "csv" by default, also accepts "json"
+#' @export
+#' 
+
 get_ncvs <- function(survey, year, pop = NULL, filename, path, format = "csv", ...){
   
   # Check for an accepted data file format type
