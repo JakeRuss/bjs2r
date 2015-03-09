@@ -1,6 +1,6 @@
-\name{bjstor-package}
-\alias{bjstor-package}
-\alias{bjstor}
+\name{bjs2r-package}
+\alias{bjs2r-package}
+\alias{bjs2r}
 \docType{package}
 \title{
 What the package does (short line)
@@ -12,7 +12,7 @@ More about what it does (maybe more than one line)
 }
 \details{
 \tabular{ll}{
-Package: \tab bjstor\cr
+Package: \tab bjs2r\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2015-03-08\cr
