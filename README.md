@@ -14,11 +14,7 @@ devtools::install_github("jakeruss/bjs2r")
 
 ## Usage
 
-<<<<<<< HEAD
 * Currently offers support for the National Crime Victimization Survey (NCVS)
-=======
-* Current offers support for the National Crime Victimization Survey (NCVS)
->>>>>>> 53b5d80e0aba78d7b40310be05e9a12a8d5ffda2
 
 `get_ncvs(survey   = "personal", 
           year     = 2009, 
