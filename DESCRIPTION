@@ -8,6 +8,6 @@ Description: Import Bureau of Justice data sets to R via BJS APIs. This
     product uses the BJS Data API but is not endorsed or certified by BJS.
 Imports:
     jsonlite
-License: MIT + file LICENSE
+License: GPL-3
 URL: https://github.com/jakeruss/bjs2r
 BugReports: https://github.com/jakeruss/bjs2r/issues
