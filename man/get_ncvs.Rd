@@ -5,23 +5,25 @@
 \title{Download National Crime Victimization Survey (NCVS) data from the Bureau
 of Justice Statistics' API.}
 \usage{
-get_ncvs(survey, year, pop = NULL, filename, path, format = "csv", ...)
+get_ncvs(filename, path = NULL, survey, year, pop = NULL, ...)
 }
 \arguments{
-\item{survey}{survey type; accepts "personal" or "household"}
+\item{filename}{File name, to be downloaded if local file does not exist}
 
-\item{year}{survey year in YYYY format}
+\item{path}{path to local file or alternative download directory}
 
-\item{pop}{logical; TRUE indicates population data, FALSE indicates counts}
+\item{survey}{survey type string, accepts \code{"personal"} or
+\code{"household"}}
 
-\item{filename}{name of the downloaded file}
+\item{year}{survey year in yyyy format}
 
-\item{path}{directory to store downloaded file}
+\item{pop}{logical; \code{TRUE} indicates population data, \code{FALSE}
+indicates counts}
 
-\item{format}{file format type; "csv" by default, also accepts "json"}
+\item{...}{additional arguments are passed on to \code{\link[utils]{read.csv}()}
+or \code{\link[jsonlite]{fromJSON}()}}
 }
 \description{
-Download National Crime Victimization Survey (NCVS) data from the Bureau
-of Justice Statistics' API.
+Currently provides support for csv and json file formats.
 }
 
