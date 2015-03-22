@@ -16,9 +16,10 @@ devtools::install_github("jakeruss/bjs2r")
 
 * Currently offers support for the National Crime Victimization Survey (NCVS)
 
-`get_ncvs(survey   = "personal", 
-          year     = 2009, 
-          pop      = TRUE, 
-          filename = "filename.csv", 
-          path     = "path/to/directory", 
-          as.is    = TRUE)`
+```
+csv_df    <- get_ncvs(filename = "filename.csv", path = "path/to/directory", 
+                    survey = "personal", year = 2009, pop = TRUE, as.is = TRUE)
+
+json_list <- get_ncvs(filename = "filename.json", path = "path/to/directory", 
+                      survey = "personal", year = 2009, pop = TRUE)
+```
